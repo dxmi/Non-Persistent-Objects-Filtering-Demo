@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# XAF - How to filter and sort Non-Persistent Objects
+# XAF - How to filter and sort non-persistent objects
 
 
 If a collection of [non\-persistent objects](https://docs.devexpress.com/eXpressAppFramework/116516/concepts/business-model-design/non-persistent-objects) contains many items, you may need to filter it. However, built-in filters are disabled for non-persistent collections by default.
