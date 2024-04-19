@@ -19,7 +19,7 @@ To enable filtering and sorting for [non\-persistent objects](https://docs.devex
 
 1. Create a `DynamicCollection` instance and pass it in the [NonPersistentObjectSpace\.ObjectsGetting](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.NonPersistentObjectSpace.ObjectsGetting) event handler.
 2. Subscribe to the `DynamicCollection.FetchObjects` event and pass a new collection of non-persistent objects every time filter or sort parameters change.
-3. If you cannot filter the collection manually, set the `ShapeData` event parameter to `true`. Then, `DynamicCollection` will then process data (filter, sort, and trim) internally.
+3. If you cannot filter the collection, set the `ShapeData` event parameter to `true`. The `DynamicCollection` then processes the data (filter, sort, and trim) internally.
    
      When you use the `DynamicCollection`, the built-in [FullTextSearch action](https://docs.devexpress.com/eXpressAppFramework/112997/concepts/filtering/full-text-search-action) is displayed in corresponding non-persistent list views.
 
